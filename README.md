@@ -2,6 +2,6 @@
 
 Zip by running:
 
-zip -r function.zip .
+$ zip -r function.zip .
 
 Upload using the AWS Lambda UI
