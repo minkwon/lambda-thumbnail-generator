@@ -63,6 +63,7 @@ exports.handler = async (event, context, callback) => {
             Bucket: bucketName,
             Key: dstKey,
             Body: buffer,
+            ACL: 'public-read',
             ContentType: "image"
         };
 
